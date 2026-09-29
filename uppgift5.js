@@ -6,3 +6,5 @@ let foods=["Varmrökt Lax", "Köttbullar med potatismos", "Linsgryta", "Chicken 
 foods.push("Högrevscurry");
 
 foods.shift(0);
+
+console.log(foods);
