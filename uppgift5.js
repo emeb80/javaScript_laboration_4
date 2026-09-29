@@ -3,4 +3,4 @@
 
 let foods=["Varmrökt Lax", "Köttbullar med potatismos", "Linsgryta", "Chicken Korma", "Fisksoppa"];
 
-console.log(foods[4]);
+foods.push("Högrevscurry");
