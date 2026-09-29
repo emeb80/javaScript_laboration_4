@@ -4,3 +4,5 @@
 let foods=["Varmrökt Lax", "Köttbullar med potatismos", "Linsgryta", "Chicken Korma", "Fisksoppa"];
 
 foods.push("Högrevscurry");
+
+foods.shift(0);
