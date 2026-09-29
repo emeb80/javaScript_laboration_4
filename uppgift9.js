@@ -1,7 +1,7 @@
 /* Lösning till Uppgift 9 -"Program för information om Person (stad, namn och myndig/icke myndig)". Av Eva Bergström, 2026 */
 "use strict"
 
-const persons=[
+const persons=[ //array med objekt//
     {name:"Morris",
         age:16,
         city:"Lund",
@@ -17,4 +17,7 @@ const persons=[
         city:"Helsingborg"
     }
 ];
-console.log(persons);
+
+for (let i = 0; i < persons.length; i++){
+    console.log(persons[i]);
+}
