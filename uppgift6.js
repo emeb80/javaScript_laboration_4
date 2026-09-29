@@ -5,4 +5,4 @@ function calculateArea(width, height) {
     return width*height;
 }
 
-console.log("Arean är:", calculateArea (10,4));
+console.log("Arean är:", calculateArea (324,567));
