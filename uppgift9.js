@@ -19,5 +19,10 @@ const persons=[ //array med objekt//
 ];
 
 for (let i = 0; i < persons.length; i++){
-    console.log(persons[i]);
+    printPerson(persons[i]);
+}
+
+function printPerson(persons) {
+  
+    console.log(persons.name + " bor i " + persons.city);
 }
